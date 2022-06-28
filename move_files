@@ -1,4 +1,5 @@
 #!/bin/sh
+cd $(dirname "$0")
 target_dir=$HOME/.local/src/st
 mkdir -p $target_dir
 yes | cp -rfT . $target_dir
